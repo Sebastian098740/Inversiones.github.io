@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sebastian">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="topheader">
+        <div>
+            <h1>Formulario</h1>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <center>
+            <form>
+                <label for="text" class="lab1">Nombre</label><br>
+                <input type="text" class="name"><br>
+                <label for="tel" class="lab2">Numero</label><br>
+                <input type="tel" class="phone"><br>
+                <h3 class="option">Elije cualquier tipo de inversiones</h3>
+                <label for="checkbox" class="Accion">Accion</label>
+                <input type="checkbox" class="box1">
+                <label for="checkbox" class="Cripto">Crypto</label>
+                <input type="checkbox" class="box2">
+                <label for="checkbox" class="Bienes">Bienes</label>
+                <input type="checkbox" class="box3">
+                <label for="checkbox" class="Bonos">Bonos</label>
+                <input type="checkbox" class="box4"><br>
+                <input type="submit" class="submit">
+            </form>
+        </center>
+    </div>
+    <footer>
+        <h2 class="msinfo">Mas informacion</h2>
+        <center><a href="Home.html" class="Acciones"><button class="btn0">Accion</button></a></center>
+        <center><a href="Crypto.html" class="Crypto"><button class="btn1">Crypto</button></a></center>
+        <center><a href="Bienes.html" class="Bienex"><button class="btn2">Bienes</button></a></center>
+        <center><a href="Bonos.html" class="Bonus"><button class="btn3">Bonos</button></a></center>
+
+        <h2 class="ctinfo">Feedback</h2>
+        <center><a href="mailto:slug0333@interponce.edu" class="Mail"><button class="botn4">eMail</button></a></center>
+        <center><a href="https://wa.me/19394573460" target="_blank" class="Whats"><button class="botn5">whats</button></a></center>
+        <center><a href="form.html" class="Formulario" target="_blank"><button class="botn6">Form</button></a></center>
+    </footer>
+
+
+
+<style>
+    body {
+        position: relative;
+        height: auto;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-color: #454849;
+    }
+    
+    .topheader {
+        position:relative;
+        top: 0px;
+        font-family: arial;
+        border: solid black;
+        border-radius: 20px;
+        height: auto;
+        background-color: #949a9b;
+    }
+    
+    h1 {
+        color: black;
+        position: relative;
+        text-align: center;
+        top: 0px;
+    }
+    
+    .contenido {
+        position: relative;
+        height: 470px;
+        top: 20px;
+        background-color: #b5bcbd;
+        border: none;
+        border-radius: 20px;
+    }
+
+    form {
+        position: relative;
+        width: 50%;
+        height: 400px;
+        top: 30px;
+        border: solid black;
+        border-radius: 20px;
+        background-color: rgb(156, 169, 177);
+        font-family: arial;
+        font-weight:600;
+    }
+
+    .lab1 {
+        position: relative;
+        top: 10px;
+    }
+
+    .name {
+        position: relative;
+        width: 40%;
+        height: 20px;
+        text-align: center;
+        top: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .lab2 {
+        position: relative;
+        top: 40px;
+    }
+
+    .phone {
+        position: relative;
+        width: 40%;
+        height: 20px;
+        text-align: center;
+        top: 50px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .option {
+        position: relative;
+        text-align: center;
+        top: 70px;
+    }
+
+    .Accion {
+        position: relative;
+        top: 90px;
+        left: -5px;
+    }
+
+    .box1 {
+        position: relative;
+        top: 130px;
+        left: -45px;
+        cursor: pointer;
+    }
+
+    .Cripto {
+        position: relative;
+        top: 90px;
+        left: 0px;
+    }
+
+    .box2 {
+        position: relative;
+        top: 130px;
+        left: -35px;
+        cursor: pointer;
+    }
+
+    .Bienes {
+        position: relative;
+        top: 90px;
+        left: 15px;
+    }
+
+    .box3 {
+        position: relative;
+        top: 130px;
+        left: -25px;
+        cursor: pointer;
+    }
+
+    .Bonos {
+        position: relative;
+        top: 90px;
+        left:25px;
+    }
+    .box4 {
+        position: relative;
+        top: 130px;
+        left: -15px;
+        cursor: pointer;
+    }
+
+    .submit {
+        position: relative;
+        width: 75px;
+        height: 30px;
+        top: 165px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    footer {
+        position: relative;
+        top: 40px;
+        width: auto;
+        height: 300px;
+        border: 5px solid #ffffff;
+        border-radius: 20px;
+        background-color: #000000;
+        color: white;
+    }
+
+    .ctinfo {
+        position: relative;
+        top: -50px;
+    }
+
+    h2 {
+        position: relative;
+        text-align: center;
+        top: 5px;
+        font-family: arial;
+    }
+
+    .Acciones {
+        position: relative;
+        left: -130px;
+        top: 20px;
+    }
+
+    .Crypto {
+        position: relative;
+        left: -43px;
+        top: -10px;
+    }
+
+    .Bienex {
+        position: relative;
+        left: 47px;
+        top: -40px;
+    }
+
+    .Bonus {
+        position: relative;
+        left: 130px;
+        top: -70px;
+    }
+
+    .btn0 {
+        position: relative;
+        width: auto;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .btn0:hover {
+        transform: scale(1.1);
+    }
+
+    .btn1 {
+        position: relative;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .btn1:hover {
+        transform: scale(1.1);
+    }
+
+    .btn2 {
+        position: relative;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .btn2:hover {
+        transform: scale(1.1);
+    }
+
+    .btn3 {
+        position: relative;
+        left: 0px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .btn3:hover {
+        transform: scale(1.1);
+    }
+
+    .ctinfo {
+        position: relative;
+        top: -50px;
+    }
+
+    .Mail {
+        position: relative;
+        left: 0px;
+        top: -45px;
+    }
+
+    .Whats {
+        position: relative;
+        left: 100px;
+        top: -75px;
+    }
+
+    .Formulario {
+        position: relative;
+        left: -100px;
+        top: -105px;
+    }
+
+    .botn4 {
+        position: relative;
+        top: 0px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .botn4:hover {
+        transform: scale(1.1);
+    }
+
+    .botn5 {
+        position: relative;
+        top: 0px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .botn5:hover {
+        transform: scale(1.1);
+    }
+
+    .botn6 {
+        position: relative;
+        top: 0px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .botn6:hover {
+        transform: scale(1.1);
+    }
+
+</style>
+
+</body>
